@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/pifa/pifa",
+    "pages/askbuy/askbuy",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "defaultTitle": "alipay"
+  },
+  "tabBar": {
+    "textColor": "#666666",
+    "selectedColor": "#ff6600",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath":"pages/index/index",
+        "name":"首页",
+        "icon":"images/buy.png",
+        "activeIcon":"images/buy_HL.png"
+      },
+      {
+        "pagePath":"pages/askbuy/askbuy",
+        "name":"求购",
+        "icon":"images/ask_buy.png",
+        "activeIcon":"images/ask_buy_HL.png"
+      },
+      {
+        "pagePath":"pages/pifa/pifa",
+        "name":"批发",
+        "icon":"images/pifa.png",
+        "activeIcon":"images/pifa_HL.png"
+      },
+      {
+        "pagePath":"pages/mine/mine",
+        "name":"我的",
+        "icon":"images/my_icon.png",
+        "activeIcon":"images/my_icon_HL.png"
+      }
+    ]
+  }
+}

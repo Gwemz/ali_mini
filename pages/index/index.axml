@@ -1,0 +1,17 @@
+<view class="box">
+  <button type="primary" class="btn" onTap="getAuthCode">用户授权</button>
+  <button type="primary" class="btn" onTap="getLocation">获取地理位置</button>
+  <button type="primary" class="btn" onTap="handleClick">my.alert</button>
+  <button type="primary" class="btn" onTap="handleClick2">my.confirm</button>
+  <button type="primary" class="btn" onTap="handleClick3">my.prompt</button>
+  <button type="primary" class="btn" onTap="handleClick4">my.showToast</button>
+  <button type="primary" class="btn" onTap="handleClick5">my.showLoading</button>
+  <button type="primary" class="btn" onTap="handleClick6">my.showNavigationBarLoading</button>
+  <button type="primary" class="btn" onTap="choosePhoneContact">获取联系人</button>
+  <button type="primary" class="btn" onTap="chooseCity">选择城市</button>
+  <button type="primary" class="btn" onTap="datePicker">选择日期</button>
+  <button type="primary" class="btn" onTap="phonecall">拨打电话</button>
+  <button type="primary" class="btn" onTap="setStorage">写入缓存</button>
+  <button type="primary" class="btn" onTap="getStorage">获取缓存</button>
+  <button type="primary" class="btn" onTap="getsystem">获取系统信息</button>
+</view>
